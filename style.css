@@ -1,0 +1,60 @@
+/* gray-500    #8C94A3 
+    background   #1D2026
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.top-header {
+  background-color: #1d2026;
+  color: #8c94a3;
+  height: 52px;
+}
+
+.top-header > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.top-header > section > nav {
+  display: flex;
+  gap: 12px;
+}
+.top-header > section > nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.top-header > section > div {
+  display: flex;
+  gap: 12px;
+}
+.top-header > section > div select {
+  background-color: inherit;
+  color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+  .top-header > section > nav {
+    gap: 8px;
+    justify-content: center;
+    width: 100%;
+  }
+  .top-header > section > nav a {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .top-header > section > div {
+    display: none;
+  }
+}
