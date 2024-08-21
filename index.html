@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- ---- Top NavBar --- -->
     <header class="top-header">
-      <section>
+      <section class="container">
         <nav>
           <a href="#">Home</a>
           <a href="#">Courses</a>
@@ -35,6 +36,34 @@
           </select>
         </div>
       </section>
+    </header>
+    <!-- ------ Main Navbar --------- -->
+
+    <header class="main-navbar container">
+      <div class="header-first-sec">
+        <img src="./assets/logo.png" width="100" />
+        <select>
+          <option>Browse</option>
+        </select>
+        <div class="input-search">
+          <img src="./assets/icons/MagnifyingGlass.png" height="20" />
+          <input />
+        </div>
+      </div>
+      <!--  Desktop Sec -->
+      <div class="header-second-sec">
+        <img src="./assets/icons/Bell.png" height="20" />
+        <img src="./assets/icons/Heart.png" height="20" />
+        <img src="./assets/icons/ShoppingCartSimple.png" height="20" />
+        <button class="secondary-btn">Create Account</button>
+        <button class="primary-btn">Sign In</button>
+      </div>
+      <!-- ------- Mobile Sec -->
+      <div class="mobile-second-sec">
+        <img src="./assets/icons/MagnifyingGlass.png" height="20" />
+        <img src="./assets/icons/Bell.png" height="20" />
+        <img src="./assets/icons/UserCircle.png" height="20" />
+      </div>
     </header>
   </body>
 </html>
